@@ -62,7 +62,8 @@ Alternatively, you can skip this step and use the files "data/genome_sequences/h
 
 # Pretraining the model
 
-Second, use the jupyter notebook "script_pretrain_mistral-dna.ipynb" to pretrain Mixtral model on DNA sequences. Select the data you want to pretrain the model on (full data, small data and very small data).
+Second, in the python folder "scriptPython/", you'll find the jupyter notebook:
+**script_pretrain_mistral-dna.ipynb** to pretrain Mixtral model on DNA sequences. Select the data you want to pretrain the model on (full data, small data and very small data).
 
 
 # Contact: 
