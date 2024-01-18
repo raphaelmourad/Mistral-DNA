@@ -1,4 +1,4 @@
-# Mistral-DNA: Mistra large language model for DNA sequences
+# Mistral-DNA: Mistral large language model for DNA sequences
 
 # Overview
 
@@ -21,25 +21,31 @@ The versions that were used here were :
 - Driver Version: 535.129.03
 - CUDA Version: 12.2
 
-The models were developed with python and transformer.  
+The models were developed with python and transformers.  
 
-Before installing python and python packages, you need to install python3 (>=3.10.12) (if you don't have it):  
+Before installing python packages, you need to install python3 (>=3.10.12) (if you don't have it):  
 ```
 sudo apt update
 sudo apt install python3-dev python3-pip python3-venv
 ```
 
+Make mistral-dna environment:  
+```
+conda create -n mitral-dna python=3.8
+conda activate mitral-dna
+```
+
 To install pytorch:  
 ```
-pip install torch==1.13.0
+pip install torch>=1.13.0
 ```
 
 Other python packages need to be installed:   
 ```
-pip install transformers==4.37.0.dev0 numpy==1.24.4 pandas==1.4.4 sklearn==0.0 datasets==2.14.4 peft==0.7.2.dev0
+pip install transformers>=4.37.0.dev0 numpy>=1.24.4 pandas>=1.4.4 sklearn==0.0 datasets>=2.14.4 peft>=0.7.2.dev0
 ```
 
-To generate the data, you need to first install R packages using the following command:
+To generate the data, you need to first install R packages using the following command (to type inside R):
 ```
 if (!require("BiocManager", quietly = TRUE))  
 install.packages("BiocManager")  
