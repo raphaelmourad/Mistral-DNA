@@ -13,7 +13,7 @@ setwd("../")
 # Load R packages
 library(GenomicRanges)
 library(Biostrings)
-library(liftOver)
+library(BSgenome.Hsapiens.UCSC.hg38)
 
 
 #### LOAD FUNCTIONS
