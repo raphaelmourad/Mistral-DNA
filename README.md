@@ -56,14 +56,15 @@ BiocManager::install("Biostrings")
 
 # Generate the data to pretrain the model
 
-If you want to pretrain the model using the whole human genome, first use the R script "scriptR/script_generate_dna_sequences.R" to generate the DNA sequences (file "data/genome_sequences/hg38/sequences_hg38_200b.csv.gz"). 
+If you want to pretrain the model using the whole human genome, first use the R script:\ 
+**scriptR/script_generate_dna_sequences.R** to generate the DNA sequences (file "data/genome_sequences/hg38/sequences_hg38_200b.csv.gz"). 
 
 Alternatively, you can skip this step and use the files "data/genome_sequences/hg38/sequences_hg38_200b_small.csv.gz" or "data/genome_sequences/hg38/sequences_hg38_200b_verysmall.csv.gz" to pretrain the model with a fraction of the human genome, respectively 6.9% or 0.7% of the human genome. 
 
 # Pretraining the model
 
 Second, in the python folder "scriptPython/", you'll find the jupyter notebook:\
-**script_pretrain_mistral-dna.ipynb** to pretrain Mixtral model on DNA sequences. \\
+**script_pretrain_mistral-dna.ipynb** to pretrain Mixtral model on DNA sequences. \\\
 
 Select the data you want to pretrain the model on (full data, small data and very small data).
 
