@@ -43,6 +43,7 @@ pip install torch>=1.13.0
 Other python packages need to be installed:   
 ```
 pip install transformers>=4.37.0.dev0 numpy>=1.24.4 pandas>=1.4.4 sklearn==0.0 datasets>=2.14.4 peft>=0.7.2.dev0
+pip install flash-attn==0.2.4
 ```
 
 To generate the data, you need to first install R packages using the following command (to type inside R):
