@@ -2,7 +2,7 @@
 
 # Overview
 
-Here is a repo to pretrain Mistral large language model for DNA sequences. 
+Here is a repo to pretrain Mistral large language model for DNA sequences. Here the Mixtral model was modified to significantly reduce the number of parameters mostly by removing layers, such that it could be trained on a GPU such as an RTX3090.
 
 # Requirements
 
