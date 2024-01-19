@@ -60,6 +60,7 @@ BiocManager::install("Biostrings")
 
 If you want to pretrain the model using the whole human genome, first use the R script:
 - **scriptR/script_generate_dna_sequences.R** to generate the DNA sequences \
+
 You will obtain the following file (too large to be stored on github):
 - **data/genome_sequences/hg38/sequences_hg38_200b.csv.gz** (100% of the human genome)
 
