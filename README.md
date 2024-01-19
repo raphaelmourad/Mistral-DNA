@@ -61,7 +61,7 @@ BiocManager::install("Biostrings")
 If you want to pretrain the model using the whole human genome, first use the R script:\ 
 **scriptR/script_generate_dna_sequences.R** to generate the DNA sequences (file "data/genome_sequences/hg38/sequences_hg38_200b.csv.gz"). 
 
-Alternatively, you can skip this step and use the files "data/genome_sequences/hg38/sequences_hg38_200b_small.csv.gz" or "data/genome_sequences/hg38/sequences_hg38_200b_verysmall.csv.gz" to pretrain the model with a fraction of the human genome, respectively 6.9% or 0.7% of the human genome. 
+Alternatively, you can skip this step and use the files "data/genome_sequences/hg38/sequences_hg38_200b_small.csv.gz" or "data/genome_sequences/hg38/sequences_hg38_200b_verysmall.csv.gz" to pretrain the model with a fraction of the human genome, respectively 10% or 1% of the human genome. 
 
 # Pretraining the model
 
