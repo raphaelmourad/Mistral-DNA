@@ -47,6 +47,11 @@ pip install flash-attn==0.2.4
 pip install accelerate>=0.21.0
 ```
 
+The pretrained model is available here:
+```
+https://huggingface.co/RaphaelMourad/Mistral-DNA-v0.1
+```
+
 To generate the data, you need to first install R packages using the following command (to type inside R):
 ```
 if (!require("BiocManager", quietly = TRUE))  
@@ -75,6 +80,12 @@ Second, in the python folder "scriptPython/", you'll find the jupyter notebook:
 
 Select the data you want to pretrain the model on (full data, small data and very small data).
 
+# Fine-tuning the model for classification
+
+Third, in the python folder "scriptPython/", you'll find the jupyter notebook:
+- **script_finetune.ipynb** to finetune the pretrained Mixtral model on a specific classification task. \
+
+To finetune the model, you must provide a dataset to train the model. 
 
 # Contact: 
 raphael.mourad@univ-tlse3.fr
