@@ -85,7 +85,7 @@ Select the data you want to pretrain the model on (full data, small data and ver
 Third, in the python folder "scriptPython/", you'll find the jupyter notebook:
 - **script_finetune.ipynb** to finetune the pretrained Mixtral model on a specific classification task. \
 
-To finetune the model, you must provide a dataset to train the model. 
+To finetune the model, you must provide a dataset to train the model. In the notebook, we used the [GUE dataset](https://drive.google.com/file/d/1GRtbzTe3UXYF1oW27ASNhYX3SZ16D7N2/view).
 
 # Contact: 
 raphael.mourad@univ-tlse3.fr
