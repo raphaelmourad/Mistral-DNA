@@ -91,6 +91,8 @@ To finetune the model, you must provide a dataset to train the model.
 In the notebook, we used the [GUE dataset](https://drive.google.com/file/d/1GRtbzTe3UXYF1oW27ASNhYX3SZ16D7N2/view). 
 The folder GUE should be put in the folder 'data'. 
 
+The script can be ran on [Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
+
 # Contact: 
 raphael.mourad@univ-tlse3.fr
 
