@@ -80,6 +80,8 @@ Second, in the python folder "scriptPython/", you'll find the jupyter notebook:
 
 Select the data you want to pretrain the model on (full data, small data and very small data).
 
+The script can be ran on [Google Colab](https://colab.research.google.com/drive/1gcw_MYiqwB-pbVYHIx8kevx-ZD7sqMxL#scrollTo=JTYKjBrwRSU6).
+
 # Fine-tuning the model for classification
 
 Third, in the python folder "scriptPython/", you'll find the jupyter notebook:
