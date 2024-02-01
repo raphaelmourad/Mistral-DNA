@@ -53,7 +53,7 @@ pip install torch-xla>=2.0
 
 You might need to add this to your .bashrc:
 ```
-export LD_LIBRARY_PATH=$PATH:/your_path/mistral-dna/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/your_path/mistral-dna/lib/
 ```
 
 The pretrained model is available here:
