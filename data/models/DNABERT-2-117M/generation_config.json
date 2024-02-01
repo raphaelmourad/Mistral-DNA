@@ -1,6 +1,0 @@
-{
-  "_from_model_config": true,
-  "pad_token_id": 0,
-  "transformers_version": "4.28.0",
-  "do_sample" : true
-}
