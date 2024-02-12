@@ -31,8 +31,8 @@ sudo apt install python3-dev python3-pip python3-venv
 
 Make mistral-dna environment:  
 ```
-conda create -n mitral-dna python=3.8
-conda activate mitral-dna
+conda create -n mistral-dna python=3.8
+conda activate mistral-dna
 ```
 
 To install pytorch:  
