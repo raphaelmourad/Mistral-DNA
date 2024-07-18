@@ -102,6 +102,15 @@ The folder GUE should be put in the folder 'data'.
 
 The script can be ran on [Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
 
+# Prediction mutation effect with zero shot learning (using the pretrained model)
+
+The script can be ran on [Google Colab](https://colab.research.google.com/drive/1cn_0BBi13Fq2hIFAI9_t9IGmp5O-D2vs).
+
+# Generate artificial sequences (using the pretrained model)
+
+The script can be ran on [Google Colab](https://colab.research.google.com/drive/1ej879r_AWGjVju74eTUYhCctj-c8IPob#scrollTo=45RBo07aAK8M).
+
+
 # Contact: 
 raphael.mourad@univ-tlse3.fr
 
