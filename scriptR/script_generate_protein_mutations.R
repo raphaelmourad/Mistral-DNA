@@ -15,7 +15,7 @@ library(Biostrings)
 
 # Read hg38 proteins
 proteins=readAAStringSet("data/genome_sequences/hg38/Homo_sapiens.GRCh38.pep.all.fa.gz")
-proteins=proteins[width(proteins)>200 & width(proteins)<500]
+proteins=proteins[width(proteins)>100 & width(proteins)<200]
 
 # Select 100 random protein sequences
 selected_proteins_wt <- sample(proteins,100)
